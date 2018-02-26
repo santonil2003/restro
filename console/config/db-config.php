@@ -3,17 +3,17 @@
 if (YII_ENV == 'production') {
     return [
         'class'    => 'yii\db\Connection',
-        'dsn'      => 'mysql:host=192.168.0.120;dbname=restro',
+        'dsn'      => 'mysql:host=localhost;dbname=restro',
         'username' => 'root',
-        'password' => 'abc123',
+        'password' => 'root',
         'charset'  => 'utf8',
     ];
 } else {
     return [
         'class'    => 'yii\db\Connection',
-        'dsn'      => 'mysql:host=192.168.0.120;dbname=restro',
+        'dsn'      => 'mysql:host=localhost;dbname=restro',
         'username' => 'root',
-        'password' => 'abc123',
+        'password' => 'root',
         'charset'  => 'utf8',
     ];
 }
