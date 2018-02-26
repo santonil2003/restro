@@ -1,0 +1,5 @@
+# nginx logs
+webapp-access.log
+webapp-error.log
+api-access.log
+api-error.log
